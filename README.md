@@ -5,6 +5,8 @@
 
 <h1 id="objective">Podcastr</h1>
 
+Proejto de um podcast player, usando react , axios, jsonserver, typescript.
+
 <h1 id="howto"> Já clonou o projeto?.</h1>
 
 ## Scripts
