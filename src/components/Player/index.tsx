@@ -4,7 +4,7 @@ import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
 
 import styles from './styles.module.scss';
-import Image from 'next/Image';
+import Image from 'next/image';
 
 export function Player() {
   const audioRef = useRef<HTMLAudioElement>(null);
@@ -50,8 +50,7 @@ export function Player() {
             height={592}
             src={episode.thumbnailFileName}
             alt={episode.title}
-            quality={100}
-            objectFit="cover"
+            quality={100}          
           />
           <strong>{episode.title}</strong>
           <span>{episode.members}</span>
